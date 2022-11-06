@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+
+  font-family: sans-serif;
+}
+
+.lightContainer{
+  color: rgb(0, 132, 176);
+}
+
+.darkContainer{
+  background-color: rgb(0, 0, 0);
+  color: lightblue;
+}
+
+.graphContainer{
+  display: grid ;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 768px){
+  .graphContainer{
+    grid-template-columns: 1fr;
+  }
+}
